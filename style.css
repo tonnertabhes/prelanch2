@@ -1,0 +1,33 @@
+body {
+    background-image: url('./BG.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+  }
+
+h1 {
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 900;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 125;
+    margin: 0px;
+}
+
+h3 {
+  font-weight: 100;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25;
+  margin: -5px;
+  color: white;
+}
+
+.textelements {
+  position: relative;
+  margin-left: 10%;
+  margin-right: auto;
+  width: 50em;
+  top: 40%;
+}
