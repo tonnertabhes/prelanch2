@@ -13,6 +13,7 @@ h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 125;
     margin: 0px;
+    transition: transform 1s, text-shadow 0.5s;
 }
 
 h3 {
@@ -22,6 +23,7 @@ h3 {
   font-size: 25;
   margin: -5px;
   color: white;
+  transition: transform 0.5s, text-shadow 0.5s;
 }
 
 .textelements {
@@ -31,3 +33,14 @@ h3 {
   width: 50em;
   top: 40%;
 }
+
+h1:hover {
+  transform: translateY(-5px);
+  text-shadow: 0 5px 5px #00000040;
+}
+
+h3:hover {
+  transform: translateY(-5px);
+  text-shadow: 0 5px 5px #00000040;
+}
+
