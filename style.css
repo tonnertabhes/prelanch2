@@ -36,6 +36,16 @@ h3 {
   transition: transform 1s, text-shadow 2s;
 }
 
+.textelements2 {
+  position: relative;
+  margin-left: 10%;
+  margin-right: auto;
+  width: 50em;
+  font-size: 2em;
+  margin-top: 20%;
+  transition: transform 1s, text-shadow 2s;
+}
+
 .textelements:hover {
   transform: translateY(-5px);
   text-shadow: 0 5px 5px #00000040;
@@ -68,5 +78,10 @@ h3 {
 
 .tbtn {
   background-color: #0088cc;
+  color: white;
+}
+
+.pbtn {
+  background-color: lightgreen;
   color: white;
 }
